@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VbcI7wddJe/o4xEbs3qQoFQzcCD6Qv30AwD2rTpJje4=",
+  "Source": "CloudStorageTest.API",
+  "BasePath": "_content/CloudStorageTest.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

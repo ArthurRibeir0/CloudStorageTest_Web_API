@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "File.TypeChecker/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FileTypeChecker.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FileTypeChecker.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "CloudStorageTest.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CloudStorageTest.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudStorageTest.Domain.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "File.TypeChecker/4.0.0": {
+      "sha512": "lQEAqMYkvzzt28k45+WkdOSmqEE711xb0GjfFchIq9ogOtj2l0ien2uc9jdp4e95eRD1QAH8r39gKu9cHLt0OA==",
+      "type": "package",
+      "path": "file.typechecker/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/README.md",
+        "file.typechecker.4.0.0.nupkg.sha512",
+        "file.typechecker.nuspec",
+        "images/FileTypeCheckerLogo-150.png",
+        "lib/netstandard2.0/FileTypeChecker.dll",
+        "lib/netstandard2.0/FileTypeChecker.pdb"
+      ]
+    },
+    "CloudStorageTest.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CloudStorageTest.Domain/CloudStorageTest.Domain.csproj",
+      "msbuildProject": "../CloudStorageTest.Domain/CloudStorageTest.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CloudStorageTest.Domain >= 1.0.0",
+      "File.TypeChecker >= 4.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arthu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dev\\ProjetosC#\\CloudStorageTest\\CloudStorageTest.Application\\CloudStorageTest.Application.csproj",
+      "projectName": "CloudStorageTest.Application",
+      "projectPath": "C:\\dev\\ProjetosC#\\CloudStorageTest\\CloudStorageTest.Application\\CloudStorageTest.Application.csproj",
+      "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\ProjetosC#\\CloudStorageTest\\CloudStorageTest.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\dev\\ProjetosC#\\CloudStorageTest\\CloudStorageTest.Domain\\CloudStorageTest.Domain.csproj": {
+              "projectPath": "C:\\dev\\ProjetosC#\\CloudStorageTest\\CloudStorageTest.Domain\\CloudStorageTest.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "File.TypeChecker": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
