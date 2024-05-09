@@ -8,12 +8,19 @@ Esta é uma API Web desenvolvida em C# utilizando ASP.NET Core para facilitar o 
 
 ## Tecnologias Utilizadas
 
-- C#
-- ASP.NET Core
+<div>
+  
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="80" height="80"/>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="80" height="80"/>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" width="80" height="80"/>
+         
+</div>
+
+### Tecnologias Adicionais
+
 - NuGet Packages:
   - File.TypeChecker
   - Google.Apis.Drive.V3
-- Google Cloud
 - Google For Developers
 
 ## Requisitos
@@ -57,5 +64,8 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 Para mais informações, entre em contato:
 
-- Email: dev.arthur15@gmail.com
-- LinkedIn: [Arthur Ribeiro Peixoto](https://www.linkedin.com/in/arthur-ribeiro-peixoto-3b0096232/)
+<div>
+  <a href="https://www.instagram.com/arthurr2415" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:dev.arthur15@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/arthur-ribeiro-peixoto-3b0096232/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
+</div>
