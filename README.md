@@ -1,7 +1,5 @@
 # CloudStorageTest_Web_API
 
-API Web para envio de arquivos ao Google Drive.
-
 ## Descrição
 
 Esta é uma API Web desenvolvida em C# utilizando ASP.NET Core para facilitar o envio de arquivos ao Google Drive. O projeto utiliza a biblioteca Google.Apis.Drive.V3 para interagir com a API do Google Drive e permite o upload de diferentes tipos de arquivos.
